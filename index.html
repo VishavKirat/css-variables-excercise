@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Variables</title>
+</head>
+<body>
+  <div class='controls'>
+    <div class='option space'>
+      <label for="spacing">Spacing:</label>
+      <input type="range" name ='spacing' min="10" max='100' value ='10' data-sizing='px'>
+    </div>
+    <div class='option blur'>
+      <label for="blur">Blur:</label>
+      <input type="range" name ='blur' min="0" max='100' value ='0' data-sizing='px'>
+    </div>
+    <div class='option color'>
+      <label for="color">Color:</label>
+      <input type="color" name ='color' value ='#948282'>
+    </div>
+  </div>
+  <img src="image/1.jpeg" alt="image">
+  <script src='app.js'></script>
+</body>
+</html>
